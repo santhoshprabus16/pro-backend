@@ -9,5 +9,7 @@ import java.util.List;
 public interface CartService {
     void deleteProductCart(String userId, String productId);
 
+
+
     void deleteProductFromCart(String userId, String productId);
 }
